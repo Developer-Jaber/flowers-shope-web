@@ -5,3 +5,64 @@
     font-weight: 300;
     font-style: normal;
 }
+
+/* shered styling */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.similer-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+}
+.similer-button{
+    border: 0;
+    border-radius: 7px;
+    background: rgb(229, 84, 115);
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 16px 33px;
+    margin-top: 20px;
+    color: white;
+}
+
+/* styling body */
+body{
+    font-family: "Lato", sans-serif;
+}
+
+
+/* styling header section */
+.header{
+    background: rgba(229, 84, 115, 0.1);
+}
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+}
+.header-left{
+    width: 50%;
+    padding: 10% 0%;
+}
+.header-headline{
+    font-size: 4rem;
+    font-weight: 900;
+    color: rgb(39, 39, 39);
+}
+.header-description{
+    margin-top: 25px;
+    width: 95%;
+}
+.header-right{
+    width: 45%;
+}
+.header-pic{
+    width: 100%;
+    height: 660px;
+}
