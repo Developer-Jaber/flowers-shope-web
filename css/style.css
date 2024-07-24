@@ -30,6 +30,9 @@
     margin-top: 20px;
     color: white;
 }
+.text-center{
+    text-align: center;
+}
 
 /* styling body */
 body{
