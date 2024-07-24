@@ -16,6 +16,12 @@
     width: 75%;
     margin: 0 auto;
 }
+.similer-headline{
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgb(39, 39, 39);
+    margin-top: 100px;
+}
 .similer-description{
     color: rgba(39, 39, 39, 0.6);
     font-size: 1rem;
@@ -32,6 +38,13 @@
 }
 .text-center{
     text-align: center;
+}
+.content-center{
+    margin: 0 auto;
+}
+.description-style{
+    width: 45%;
+    margin: 30px auto;
 }
 
 /* styling body */
@@ -68,4 +81,61 @@ body{
 .header-pic{
     width: 100%;
     height: 660px;
+}
+
+/* styling the flower box section */
+.flower-box-area{
+    display: flex;
+    justify-content: space-between;
+}
+.flower-box{
+    width: 32%;
+}
+/* flower1 */
+.flower1{
+    height: 450px;
+    width: 100%;
+    padding-top: 103px;
+    padding-left: 45px;
+    border-radius: 200px 200px 0 0;
+    background-color:rgba(167, 33, 98, 0.15) ;
+    margin-bottom: 30px;
+}
+.flower1-img{
+    width: 250px;
+}
+
+/* flower2 */
+.flower2{
+    height: 450px;
+    width: 100%;
+    padding-top: 130px;
+    padding-left: 45px;
+    border-radius: 200px 200px 0 0;
+    background-color:rgba(5, 151, 160, 0.15) ;
+    margin-bottom: 30px;
+}
+.flower2-img{
+    width: 280px;
+}
+
+/* flower2 */
+.flower3{
+    height: 450px;
+    width: 100%;
+    padding-top: 73px;
+    padding-left: 45px;
+    border-radius: 200px 200px 0 0;
+    background-color:rgba(71, 125, 17, 0.15) ;
+    margin-bottom: 30px;
+}
+.flower3-img{
+    width: 250px;
+}
+
+.flower-link{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    margin-left: 120px;
 }
