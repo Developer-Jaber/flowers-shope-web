@@ -12,6 +12,9 @@
     padding: 0;
     margin: 0;
 }
+.border{
+    border: 1px solid  black;
+}
 .container{
     width: 75%;
     margin: 0 auto;
@@ -139,3 +142,25 @@ body{
     font-weight: 700;
     margin-left: 120px;
 }
+
+/* styling card */
+.card{
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px 50px;
+    margin: 100px auto;
+    border-radius: 7px;
+}
+.card-icon{
+    margin: 0 90px;
+    width: 70px;
+}
+.card-description{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.5);
+    text-align: center;
+    margin-top: 15px;
+}
+
