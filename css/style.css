@@ -24,10 +24,12 @@
     font-weight: 1000;
     color: rgb(39, 39, 39);
     margin-top: 100px;
+    text-align: center;
 }
 .similer-description{
-    color: rgba(39, 39, 39, 0.6);
+    color: rgba(39, 39, 39, 0.5);
     font-size: 1rem;
+    text-align: center;
 }
 .similer-button{
     border: 0;
@@ -187,4 +189,18 @@ body{
 }
 .hot-deal-img{
     width: 100%;
+}
+
+/* styling instragram section */
+.instagram-description{
+    width: 45%;
+    margin: 20px auto;
+}
+.flower-gallary{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flower-gallary img{
+    width: 23.5%;
+    border: 2px dashed rgb(159, 157, 157,0.4);
 }
